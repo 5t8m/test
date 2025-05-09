@@ -27,4 +27,4 @@ if not keys[Script_key] then
 end
 
 -- ✅ Load the actual script
-loadstring(game:HttpGet("https://untilted-loader.vercel.app"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))() 
