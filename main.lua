@@ -27,7 +27,8 @@ if not keys[Script_key] then
 end
 
 -- ✅ Key is valid, continue loading full script:
-loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Roblox-UI-Libs/main/Yun%20V2%20Lib/Yun%20V2%20Lib%20Source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Roblox-UI-Libs/main/Yun%20V2%20Lib/Yun%20V2%20Lib%20Source.lua"))()
+
 
 local Library = initLibrary()
 local Window = Library:Load({name = "cruxware", sizeX = 500, sizeY = 500, color = Color3.fromRGB(255, 255, 255)})
